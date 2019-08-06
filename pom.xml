@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,6 +31,9 @@
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
+          <!-- or whatever version you use -->
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
     </plugins>
