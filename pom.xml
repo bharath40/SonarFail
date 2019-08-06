@@ -1,7 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
@@ -35,9 +34,6 @@
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
-          <!-- or whatever version you use -->
-          <source>1.7</source>
-          <target>1.7</target>
         </configuration>
       </plugin>
     </plugins>
